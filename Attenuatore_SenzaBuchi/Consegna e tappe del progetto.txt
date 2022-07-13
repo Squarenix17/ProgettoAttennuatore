@@ -1,0 +1,49 @@
+OBBIETTIVO 
+
+Modificare la cella di attenuatore fornita per ottenere 3 diverse versioni di attenuazione:
+
+- Versione -1dB : 
+  1) l'attenuazione della potenza del segnale in uscita (S(2,1)) deve essere nell'intorno di -1dB 
+  nell'intera fascia di frequenze 24.25-27.5 GHz (es: -0.8dB < S(2,1) < -1.2dB, se possibile, trovare intervalli di valori più ristretti)
+  2) allo stesso tempo la Return Loss (S(1,1)) deve essere accettabile nell'intero intervallo 1-30 GHz
+
+- Versione -2dB : 
+  1) l'attenuazione della potenza del segnale in uscita (S(2,1)) deve essere nell'intorno di -2dB 
+  nell'intera fascia di frequenze 24.25-27.5 GHz (es: -1.8dB < S(2,1) < -2.2dB, se possibile, trovare intervalli di valori più ristretti)
+  2) allo stesso tempo la Return Loss (S(1,1)) deve essere accettabile nell'intero intervallo 1-30 GHz
+
+- Versione -3dB : 
+  1) l'attenuazione della potenza del segnale in uscita (S(2,1)) deve essere nell'intorno di -3dB
+  nell'intera fascia di frequenze 24.25-27.5 GHz (es: -2.8dB < S(2,1) < -3.2dB, se possibile, trovare intervalli di valori più ristretti)
+  2) allo stesso tempo la Return Loss (S(1,1)) deve essere accettabile nell'intero intervallo 1-30 GHz
+
+MATERIALE FORNITO
+
+- File formato .gds contenente il layout della cella elementare di attenuatore
+- File di testo per sviluppare il modello 3D in ambiente Ansys HFSS
+
+
+SUGGERIMENTI PRELIMINARI
+
+- la membrana in Bridge è stata semplificata, togliendo i buchi, al fine di diminuire i futuri tempi di simulazione, 
+  se disponete di PC con capacità di calcolo particolarmente elevate, sentitevi liberi di lasciare i buchi nella membrana
+
+- (https://en.wikipedia.org/wiki/Sheet_resistance)
+ 
+  1) il Poly realizzato in FBK può avere una Sheet Resistance che va dai 10 ai 3000 Ohm/Sq ed è depositato con uno spessore di 630 nm
+  2) resistività = (Sheet Resistance)*(spessore) 
+  3) conduttività = 1/resistività
+
+COME PROCEDERE
+
+- Sviluppare il modello 3D in Ansys HFSS e fare una prima simulazione (secondo procedura spiegata in classe)
+- Modificare/sostituire (e poi parametrizzare) alcuni solidi nel modello secondo alcune (auspicabilmente poche) variabili
+    
+  1) larghezza resistore
+  2) lunghezza resistore 
+  3) conduttività del materiale POLY
+
+- Videochiamata o incontro di persona per esaminare assieme il modello parametrizzato e capire come pensate di impostare la fase successiva, 
+  prima di procedere con il resto (per evitare di finire in "vicoli ciechi" e/o errori che fanno perdere tempo)
+  
+- Usare gli strumenti di Analisi Parametrica e/o Ottimizzazione (se avete familiarità con il tool Design of Experiments (DoE), usare pure anche quello)  
