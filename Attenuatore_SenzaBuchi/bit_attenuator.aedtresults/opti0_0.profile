@@ -1,17 +1,17 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002022, month=000000000007, day=000000000013, hour=000000000022, min=000000000021, sec=000000000002)
+    time(year=000000002022, month=000000000007, day=000000000022, hour=000000000015, min=000000000027, sec=000000000056)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000007058, lin=000000000111, lvl=000000000000)
+    $index$(pos=000000011071, lin=000000000202, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
 $begin 'Profile Header'
-	NextUniqueID=7
+	NextUniqueID=14
 	MoveBackwards=false
-	'Solve#'=6
+	'Solve#'=13
 $end 'Profile Header'
 $begin 'Profile_0'
 	ph2(0, 1657704523, 'GABRIELEDESKTOP', 'HFSS', '2022.1.0')
@@ -118,17 +118,115 @@ $begin 'Profile_6'
 	p(1.330221717009200e+13, 1.330221726259600e+13, '', 'Local Machine', 3.000000000000000e-06, 5.500000000000000e-05, 5.500000000000000e-05, 5.000000000000000e-05)
 	pf('Finished', '', 1657743662)
 $end 'Profile_6'
+$begin 'Profile_7'
+	ph2(7, 1658493515, 'GABRIELEDESKTOP', 'HFSS', '2022.1.0')
+	svi('$elevation', '0um')
+	vi('$res_length', '99um', '99um', '99um')
+	vi('$res_width', '109um', '109um', '109um')
+	vi('$sheet_res', '80', '80', '80')
+	svi('g', '0.05mm')
+	gver(0)
+	ev(98, 1845)
+	ev(102, 1008)
+	p(1.330296711513800e+13, 1.330296723202400e+13, '', 'Local Machine', 0.000000000000000e+00, 1.100000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+	pf('Finished', '', 1658493632)
+$end 'Profile_7'
+$begin 'Profile_8'
+	ph2(7, 1658493864, 'GABRIELEDESKTOP', 'HFSS', '2022.1.0')
+	svi('$elevation', '0um')
+	vi('$res_length', '99um', '99um', '99um')
+	vi('$res_width', '109um', '109um', '109um')
+	vi('$sheet_res', '80', '80', '80')
+	svi('g', '0.05mm')
+	gver(0)
+	ev(98, 1845)
+	ev(102, 1008)
+	p(1.330296746463300e+13, 1.330296746463300e+13, '', '', 0.000000000000000e+00, 1.100000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+	pf('Finished', '', 1658493864)
+$end 'Profile_8'
+$begin 'Profile_9'
+	ph2(7, 1658493981, 'GABRIELEDESKTOP', 'HFSS', '2022.1.0')
+	svi('$elevation', '0um')
+	vi('$res_length', '99um', '99um', '99um')
+	vi('$res_width', '109um', '109um', '109um')
+	vi('$sheet_res', '80', '80', '80')
+	svi('g', '0.05mm')
+	gver(0)
+	ev(98, 1845)
+	ev(102, 1008)
+	p(1.330296758123900e+13, 1.330296758123900e+13, '', '', 0.000000000000000e+00, 1.100000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+	pf('Finished', '', 1658493981)
+$end 'Profile_9'
+$begin 'Profile_10'
+	ph2(8, 1658494067, 'GABRIELEDESKTOP', 'HFSS', '2022.1.0')
+	vi('$elevation', '0um', '0um', '0um')
+	vi('$res_length', '99um', '99um', '99um')
+	vi('$res_width', '109um', '109um', '109um')
+	vi('$sheet_res', '80', '80', '80')
+	svi('g', '0.05mm')
+	gver(0)
+	ev(98, 1845)
+	ev(102, 1008)
+	p(1.330296766800700e+13, -1, '', '', 0.000000000000000e+00, 1.100000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+$end 'Profile_10'
+$begin 'Profile_11'
+	ph2(8, 1658494586, 'GABRIELEDESKTOP', 'HFSS', '2022.1.0')
+	vi('$elevation', '0um', '0um', '0um')
+	vi('$res_length', '99um', '99um', '99um')
+	vi('$res_width', '109um', '109um', '109um')
+	vi('$sheet_res', '80', '80', '80')
+	svi('g', '0.05mm')
+	gver(0)
+	ev(98, 1845)
+	ev(102, 1008)
+	p(1.330296818635500e+13, 1.330296819013600e+13, '', 'Local Machine', 0.000000000000000e+00, 1.100000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+	p(1.330296819016900e+13, -1, '', '', 3.000000000000000e-06, 1.100000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+$end 'Profile_11'
+$begin 'Profile_12'
+	ph2(8, 1658496097, 'GABRIELEDESKTOP', 'HFSS', '2022.1.0')
+	vi('$elevation', '0um', '0um', '0um')
+	vi('$res_length', '99um', '99um', '99um')
+	vi('$res_width', '109um', '109um', '109um')
+	vi('$sheet_res', '80', '80', '80')
+	svi('g', '0.05mm')
+	gver(0)
+	ev(98, 1845)
+	ev(102, 1008)
+	p(1.330296969727700e+13, 1.330296969727700e+13, '', '', 0.000000000000000e+00, 1.100000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+	p(1.330296969728800e+13, -1, '', '', 3.000000000000000e-06, 1.100000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+$end 'Profile_12'
+$begin 'Profile_13'
+	ph2(8, 1658496441, 'GABRIELEDESKTOP', 'HFSS', '2022.1.0')
+	vi('$elevation', '0um', '0um', '0um')
+	vi('$res_length', '99um', '99um', '99um')
+	vi('$res_width', '109um', '109um', '109um')
+	vi('$sheet_res', '80', '80', '80')
+	svi('g', '0.05mm')
+	gver(0)
+	ev(98, 1845)
+	ev(102, 1008)
+	p(1.330297004144400e+13, 1.330297004144400e+13, '', '', 0.000000000000000e+00, 1.100000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+	p(1.330297004145300e+13, 1.330297007609800e+13, '', 'Local Machine', 3.000000000000000e-06, 1.100000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+	pf('Finished', '', 1658496476)
+$end 'Profile_13'
 $begin '$index$'
 	$begin '$index$'
-		Profile_0(pos=465, lin=6, lvl=0)
-		Profile_1(pos=986, lin=18, lvl=0)
-		Profile_2(pos=2226, lin=35, lvl=0)
-		Profile_3(pos=2656, lin=47, lvl=0)
-		Profile_4(pos=4397, lin=67, lvl=0)
-		Profile_5(pos=5814, lin=85, lvl=0)
+		Profile_0(pos=467, lin=6, lvl=0)
+		Profile_1(pos=988, lin=18, lvl=0)
+		Profile_2(pos=2228, lin=35, lvl=0)
+		Profile_3(pos=2658, lin=47, lvl=0)
+		Profile_4(pos=4399, lin=67, lvl=0)
+		Profile_5(pos=5816, lin=85, lvl=0)
+		Profile_6(pos=6420, lin=98, lvl=0)
+		Profile_7(pos=7060, lin=111, lvl=0)
+		Profile_8(pos=7580, lin=124, lvl=0)
+		Profile_9(pos=8087, lin=137, lvl=0)
+		Profile_10(pos=8594, lin=150, lvl=0)
+		Profile_11(pos=9065, lin=162, lvl=0)
+		Profile_12(pos=9721, lin=175, lvl=0)
 		'Profile Header'(pos=370, lin=1, lvl=0)
-		Profile_6(pos=6418, lin=98, lvl=0)
+		Profile_13(pos=10364, lin=188, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=7058, lin=111, lvl=0)
+		$index$(pos=11071, lin=202, lvl=0)
 	$end '$index$'
 $end '$index$'
