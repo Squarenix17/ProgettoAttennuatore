@@ -1,17 +1,17 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002022, month=000000000007, day=000000000022, hour=000000000015, min=000000000027, sec=000000000056)
+    time(year=000000002022, month=000000000007, day=000000000024, hour=000000000021, min=000000000039, sec=000000000011)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000011071, lin=000000000202, lvl=000000000000)
+    $index$(pos=000000012485, lin=000000000230, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
 $begin 'Profile Header'
-	NextUniqueID=14
+	NextUniqueID=16
 	MoveBackwards=false
-	'Solve#'=13
+	'Solve#'=15
 $end 'Profile Header'
 $begin 'Profile_0'
 	ph2(0, 1657704523, 'GABRIELEDESKTOP', 'HFSS', '2022.1.0')
@@ -209,6 +209,34 @@ $begin 'Profile_13'
 	p(1.330297004145300e+13, 1.330297007609800e+13, '', 'Local Machine', 3.000000000000000e-06, 1.100000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
 	pf('Finished', '', 1658496476)
 $end 'Profile_13'
+$begin 'Profile_14'
+	ph2(8, 1658682530, 'GABRIELEDESKTOP', 'HFSS', '2022.1.0')
+	vi('$elevation', '0um', '0um', '0um')
+	vi('$res_length', '99um', '99um', '99um')
+	vi('$res_width', '109um', '109um', '109um')
+	vi('$sheet_res', '80', '80', '80')
+	svi('g', '0.05mm')
+	gver(0)
+	ev(98, 1845)
+	ev(102, 1008)
+	p(1.330315613055800e+13, 1.330315613055800e+13, '', '', 0.000000000000000e+00, 1.100000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+	p(1.330315613056900e+13, 1.330315613056900e+13, '', '', 3.000000000000000e-06, 1.100000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+	pf('Finished', '', 1658682530)
+$end 'Profile_14'
+$begin 'Profile_15'
+	ph2(8, 1658691185, 'GABRIELEDESKTOP', 'HFSS', '2022.1.0')
+	vi('$elevation', '0um', '0um', '0um')
+	vi('$res_length', '99um', '99um', '99um')
+	vi('$res_width', '109um', '109um', '109um')
+	vi('$sheet_res', '80', '80', '80')
+	svi('g', '0.05mm')
+	gver(0)
+	ev(98, 1845)
+	ev(102, 1008)
+	p(1.330316478570700e+13, 1.330316496522500e+13, '', 'Local Machine', 0.000000000000000e+00, 1.040000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+	p(1.330316496543800e+13, 1.330316515108800e+13, '', 'Local Machine', 3.000000000000000e-06, 1.040000000000000e-04, 1.140000000000000e-04, 7.000000000000000e+01, 5.000000000000000e-05)
+	pf('Finished', '', 1658691551)
+$end 'Profile_15'
 $begin '$index$'
 	$begin '$index$'
 		Profile_0(pos=467, lin=6, lvl=0)
@@ -224,9 +252,11 @@ $begin '$index$'
 		Profile_10(pos=8594, lin=150, lvl=0)
 		Profile_11(pos=9065, lin=162, lvl=0)
 		Profile_12(pos=9721, lin=175, lvl=0)
-		'Profile Header'(pos=370, lin=1, lvl=0)
 		Profile_13(pos=10364, lin=188, lvl=0)
+		Profile_14(pos=11071, lin=202, lvl=0)
+		'Profile Header'(pos=370, lin=1, lvl=0)
+		Profile_15(pos=11765, lin=216, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=11071, lin=202, lvl=0)
+		$index$(pos=12485, lin=230, lvl=0)
 	$end '$index$'
 $end '$index$'
