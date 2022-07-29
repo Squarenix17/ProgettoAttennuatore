@@ -120,7 +120,7 @@ $begin 'soln'
 	$end 'Frequencies'
 	$begin 'Ports'
 		Port(ModalEntryName='Port1', TerminalEntryName='Port1', PortName='Port1', Mode=0, ModeName='1', TerminalName='', ParameterName='Port1', MatrixIndex=0, PortType=0, IsPassive=true, PreferredImpedance=524288)
-		Port(ModalEntryName='Port2', TerminalEntryName='Port2', PortName='Port2', Mode=0, ModeName='1', TerminalName='', ParameterName='Port2', MatrixIndex=1, PortType=0, IsPassive=false, PreferredImpedance=524288)
+		Port(ModalEntryName='Port2', TerminalEntryName='Port2', PortName='Port2', Mode=0, ModeName='1', TerminalName='', ParameterName='Port2', MatrixIndex=1, PortType=0, IsPassive=true, PreferredImpedance=524288)
 	$end 'Ports'
 	$begin 'OtherStateSpaceModels'
 	$end 'OtherStateSpaceModels'
@@ -145,7 +145,7 @@ $begin 'soln'
 		ExtrapFreqSequence()
 		IsBarycentricS=false
 		InterpolationType=0
-		InterpolateGammaNotGammaSq=true
+		InterpolateGammaNotGammaSq=false
 	$end 'SubrangeJordanInterpDescription'
 	MultiTerminal=false
 	PortNames('Port1', 'Port2')
@@ -608,12 +608,12 @@ $begin 'freq'
 			m=2
 			n=2
 			$begin 'r0'
-				c(0.28882387138388, -0.0173516533237214)
-				c(0.687570344933872, -0.109445164022615)
+				c(0.288823871381101, -0.017351653342871)
+				c(0.687570344933778, -0.109445164027738)
 			$end 'r0'
 			$begin 'r1'
-				c(0.687570344933872, -0.109445164022615)
-				c(0.307915422526418, -0.0220553873290954)
+				c(0.687570344933778, -0.109445164027738)
+				c(0.307915422527631, -0.022055387324559)
 			$end 'r1'
 		$end 'FullMatrix'
 	$end 'SMatrix'
